@@ -1,0 +1,48 @@
+/* ShowCard.css */
+
+.show-card {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.show-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.show-card p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.show-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-card button:hover {
+  background-color: #0056b3;
+}
+
+
